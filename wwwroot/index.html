@@ -34,18 +34,6 @@
         <a class="dismiss">🗙</a>
     </div>
 
-    <button onclick="showModal()">Abrir Modal</button>
-    <dialog id="result-dialog">
-        <h1>Resultado</h1>
-    </dialog>
-
-    <script>
-        function showModal() {
-            let el = document.getElementById('result-dialog');
-            el.showModal();
-        }
-    </script>
-
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
     <script src="Components/Dialog.razor.js"></script>

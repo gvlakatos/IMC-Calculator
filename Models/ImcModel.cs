@@ -5,7 +5,7 @@ namespace Imc.Models
     public class ImcModel
     {
         [Required(ErrorMessage="Informe a altura")]
-        [Range(1, 3, ErrorMessage ="Altura inválida")]
+        [Range(1.0, 3.0, ErrorMessage ="Altura inválida")]
         public double? Height {get; set; }
 
         [Required(ErrorMessage = "Informe o peso")]
